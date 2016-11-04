@@ -65,3 +65,4 @@ ln -s ~/opt/mvn3 ~/bin/mvn3
  - Outlook
  - Tunnelblick
  - Sublime Text
+ - Docker (https://docs.docker.com/docker-for-mac/)
