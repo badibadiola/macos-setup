@@ -123,6 +123,15 @@ ln -s ~/opt/mvn3/bin/mvn ~/bin/mvn
 rm ~/Downloads/apache-maven-3.3.9-bin.tar.gz
 ```
 
+### Python & Modules
+
+```bash
+brew install python
+pip install --upgrade pip
+pip install pyyaml
+pip install requests
+```
+
 ## Apps To Install
  - MS Office (https://portal.office.com/)
  - Docker (https://docs.docker.com/docker-for-mac/)
