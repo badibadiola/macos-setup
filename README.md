@@ -184,7 +184,9 @@ pip install requests
 
 ## Apps To Install
 
-### i2cssh - https://github.com/wouterdebie/i2cssh
+### i2cssh
+
+From https://github.com/wouterdebie/i2cssh
 
 ```bash
 gem install i2cssh
