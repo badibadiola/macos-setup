@@ -183,5 +183,12 @@ pip install requests
 ```
 
 ## Apps To Install
+
+### i2cssh - https://github.com/wouterdebie/i2cssh
+
+```bash
+gem install i2cssh
+```
+
  - MS Office (https://portal.office.com/)
  - Docker (https://docs.docker.com/docker-for-mac/)
