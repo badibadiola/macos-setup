@@ -123,5 +123,5 @@ rm ~/Downloads/apache-maven-3.3.9-bin.tar.gz
 ```
 
 ## Apps To Install
- - Outlook
+ - MS Office (https://portal.office.com/)
  - Docker (https://docs.docker.com/docker-for-mac/)
