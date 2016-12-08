@@ -25,9 +25,11 @@ defaults write com.apple.dock autohide -bool false
 
 ## Make User Directories
 
+```bash
 mkdir ~/bin
 mkdir ~/opt
 mkdir ~/workspace
+```
 
 ## Brew
 
