@@ -59,6 +59,7 @@ brew cask install iterm2
 brew cask install slack
 brew cask install tunnelblick
 brew cask install sublime-text
+brew cask install keepingyouawake
 brew cask install java
 ```
 
