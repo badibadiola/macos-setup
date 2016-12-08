@@ -192,5 +192,7 @@ From https://github.com/wouterdebie/i2cssh
 gem install i2cssh
 ```
 
+### Manual Install Apps
+ - IntelliJ
  - MS Office (https://portal.office.com/)
  - Docker (https://docs.docker.com/docker-for-mac/)
