@@ -1,8 +1,27 @@
 # Setup OSX
 
-## Hostname
+## macOS Settings
 
+```bash
+sudo scutil --set ComputerName fandorin
 sudo scutil --set HostName fandorin
+sudo scutil --set LocalHostName fandorin
+
+sudo networksetup -setsearchdomains Wi-Fi h7n.uk openmarket.com lon.openmarket.com mxtelecom.com
+sudo networksetup -setsearchdomains "Thunderbolt Bridge" h7n.uk openmarket.com lon.openmarket.com mxtelecom.com
+
+# Dock Size
+defaults write com.apple.dock tilesize -int 48
+
+# Show open indicators in Dock
+defaults write com.apple.dock show-process-indicators -bool true
+
+# Don’t automatically rearrange Spaces based on most recent use
+defaults write com.apple.dock mru-spaces -bool false
+
+# Never hide the Dock
+defaults write com.apple.dock autohide -bool false
+```
 
 ## Make User Directories
 
