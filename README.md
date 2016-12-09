@@ -99,6 +99,7 @@ brew install caskroom/cask/brew-cask
 ```bash
 brew install curl
 brew install wget
+brew install ansible
 ```
 
 ### Install Applications via Cask
@@ -111,6 +112,8 @@ brew cask install tunnelblick
 brew cask install sublime-text
 brew cask install keepingyouawake
 brew cask install java
+brew cask install vagrant
+brew cask install virtualbox
 ```
 
 ## Dotfiles
