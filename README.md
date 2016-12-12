@@ -6,9 +6,13 @@
 sudo scutil --set ComputerName fandorin
 sudo scutil --set HostName fandorin
 sudo scutil --set LocalHostName fandorin
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string fandorin
 
 sudo networksetup -setsearchdomains Wi-Fi h7n.uk openmarket.com lon.openmarket.com mxtelecom.com
 sudo networksetup -setsearchdomains "Thunderbolt Bridge" h7n.uk openmarket.com lon.openmarket.com mxtelecom.com
+
+# Disable automatic keyboard backlight
+sudo defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor "Automatic Keyboard Enabled" -bool false
 
 # Speed up mouse tracking
 defaults write -g com.apple.mouse.scaling  2.0
