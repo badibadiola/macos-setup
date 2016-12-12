@@ -11,7 +11,10 @@ sudo networksetup -setsearchdomains Wi-Fi h7n.uk openmarket.com lon.openmarket.c
 sudo networksetup -setsearchdomains "Thunderbolt Bridge" h7n.uk openmarket.com lon.openmarket.com mxtelecom.com
 
 # Speed up mouse tracking
-defaults write -g com.apple.mouse.scaling  5.0
+defaults write -g com.apple.mouse.scaling  2.0
+
+# Set blazingly fast key repeat rate
+defaults write NSGlobalDomain KeyRepeat -int 1
 
 # Show battery percentage
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
