@@ -19,6 +19,7 @@ defaults write -g com.apple.mouse.scaling  2.0
 
 # Set blazingly fast key repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # Show battery percentage
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
