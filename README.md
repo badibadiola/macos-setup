@@ -214,3 +214,4 @@ gem install i2cssh
  - IntelliJ
  - MS Office (https://portal.office.com/)
  - Docker (https://docs.docker.com/docker-for-mac/)
+ - iStats (https://bjango.com/mac/istatmenus/)
