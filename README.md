@@ -10,6 +10,18 @@ sudo scutil --set LocalHostName fandorin
 sudo networksetup -setsearchdomains Wi-Fi h7n.uk openmarket.com lon.openmarket.com mxtelecom.com
 sudo networksetup -setsearchdomains "Thunderbolt Bridge" h7n.uk openmarket.com lon.openmarket.com mxtelecom.com
 
+# Speed up mouse tracking
+defaults write -g com.apple.mouse.scaling  5.0
+
+# Show battery percentage
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
+
+# Disable the Time Machine new disk requests dialog
+defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+
+# Require password 15 minutes after sleep or screen saver begins
+defaults write com.apple.screensaver askForPasswordDelay -int 0
+
 # Dock Size
 defaults write com.apple.dock tilesize -int 48
 
