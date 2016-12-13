@@ -120,6 +120,7 @@ brew install caskroom/cask/brew-cask
 brew install curl
 brew install wget
 brew install ansible
+brew install node
 ```
 
 ### Install Applications via Cask
