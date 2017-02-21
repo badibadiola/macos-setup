@@ -119,7 +119,6 @@ brew install caskroom/cask/brew-cask
 ```bash
 brew install curl
 brew install wget
-brew install ansible
 brew install node
 ```
 
@@ -135,6 +134,11 @@ brew cask install keepingyouawake
 brew cask install java
 brew cask install vagrant
 brew cask install virtualbox
+```
+
+### Python
+```bash
+sudo pip install ansible
 ```
 
 ## Dotfiles
