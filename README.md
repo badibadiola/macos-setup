@@ -3,10 +3,10 @@
 ## macOS Settings
 
 ```bash
-sudo scutil --set ComputerName fandorin
-sudo scutil --set HostName fandorin
-sudo scutil --set LocalHostName fandorin
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string fandorin
+sudo scutil --set ComputerName stevenmbp
+sudo scutil --set HostName stevenmbp
+sudo scutil --set LocalHostName stevenmbp
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string stevenmbp
 
 sudo networksetup -setsearchdomains Wi-Fi h7n.uk openmarket.com lon.openmarket.com mxtelecom.com
 sudo networksetup -setsearchdomains "Thunderbolt Bridge" h7n.uk openmarket.com lon.openmarket.com mxtelecom.com
@@ -119,21 +119,15 @@ brew install caskroom/cask/brew-cask
 ```bash
 brew install curl
 brew install wget
-brew install node
 ```
 
 ### Install Applications via Cask
 
 ```bash
-brew cask install google-chrome
 brew cask install iterm2
-brew cask install slack
-brew cask install tunnelblick
 brew cask install sublime-text
 brew cask install keepingyouawake
 brew cask install java
-brew cask install vagrant
-brew cask install virtualbox
 ```
 
 ### Python
