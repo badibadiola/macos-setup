@@ -132,6 +132,11 @@ brew cask install java
 
 ### Python
 ```bash
+brew install python
+sudo easy_install pip
+sudo pip install --upgrade pip
+sudo pip install pyyaml
+sudo pip install requests
 sudo pip install ansible
 ```
 
@@ -195,15 +200,6 @@ ln -s ~/opt/mvn3/bin/mvn ~/bin/mvn
 rm ~/Downloads/apache-maven-3.3.9-bin.tar.gz
 ```
 
-### Python & Modules
-
-```bash
-brew install python
-pip install --upgrade pip
-pip install pyyaml
-pip install requests
-```
-
 ## Apps To Install
 
 ### i2cssh
@@ -211,11 +207,10 @@ pip install requests
 From https://github.com/wouterdebie/i2cssh
 
 ```bash
-gem install i2cssh
+sudo gem install i2cssh
 ```
 
 ### Manual Install Apps
  - IntelliJ
  - MS Office (https://portal.office.com/)
- - Docker (https://docs.docker.com/docker-for-mac/)
  - iStats (https://bjango.com/mac/istatmenus/)
