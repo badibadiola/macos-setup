@@ -3,16 +3,16 @@
 ## macOS Settings
 
 ```bash
-sudo scutil --set ComputerName stevenmbp
-sudo scutil --set HostName stevenmbp
-sudo scutil --set LocalHostName stevenmbp
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string stevenmbp
+sudo scutil --set ComputerName tailstrike
+sudo scutil --set HostName tailstrike
+sudo scutil --set LocalHostName tailstrike
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string tailstrike
 
 sudo networksetup -setsearchdomains Wi-Fi h7n.uk openmarket.com lon.openmarket.com mxtelecom.com
 sudo networksetup -setsearchdomains "Thunderbolt Bridge" h7n.uk openmarket.com lon.openmarket.com mxtelecom.com
 
 # Disable automatic keyboard backlight
-sudo defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor "Automatic Keyboard Enabled" -bool false
+# sudo defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor "Automatic Keyboard Enabled" -bool false
 
 # Speed up mouse tracking
 defaults write -g com.apple.mouse.scaling  2.0
@@ -39,8 +39,8 @@ defaults write com.apple.dock show-process-indicators -bool true
 # Don’t automatically rearrange Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
 
-# Never hide the Dock
-defaults write com.apple.dock autohide -bool false
+# Auto hide the Dock
+defaults write com.apple.dock autohide -bool true
 
 # Finder: New window points to home
 defaults write com.apple.finder NewWindowTarget -string "PfHm"
