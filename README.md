@@ -128,6 +128,7 @@ brew cask install iterm2
 brew cask install sublime-text
 brew cask install keepingyouawake
 brew cask install java
+brew cask install tunnelblick
 ```
 
 ### Python
