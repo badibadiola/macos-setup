@@ -30,6 +30,9 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 # Require password 15 minutes after sleep or screen saver begins
 defaults write com.apple.screensaver askForPasswordDelay -int 0
 
+# Dock Position
+defaults write com.apple.dock orientation -string left
+
 # Dock Size
 defaults write com.apple.dock tilesize -int 48
 
